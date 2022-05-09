@@ -1,0 +1,38 @@
+.toolbar {
+  margin: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  transition: all 0.6s;
+  border-bottom: solid 1px darkorange;
+}
+
+.miau {
+  width: 150px;
+  filter: invert();
+}
+.toolbar img {
+  width: 80px;
+}
+.toolbar span {
+  display: flex;
+  align-items: center;
+}
+.toolbar ul {
+  display: flex;
+  list-style: none;
+}
+.toolbar li {
+  margin: auto;
+  padding: 10px;
+}
+li:hover {
+  color: orange;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
